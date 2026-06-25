@@ -28,7 +28,7 @@ def generate_pdf_report(
     pdf.set_font("Helvetica", "B", 20)
     pdf.set_fill_color(30, 90, 200)
     pdf.set_text_color(255, 255, 255)
-    pdf.cell(0, 14, "Smart Data Analysis Report", ln=True, fill=True, align="C")
+    pdf.cell(0, 14, "InsightFlow AI Report", ln=True, fill=True, align="C")
     pdf.set_text_color(0, 0, 0)
     pdf.set_font("Helvetica", "", 10)
     pdf.cell(0, 8, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}", ln=True, align="C")
@@ -114,6 +114,6 @@ def generate_pdf_report(
     pdf.set_y(-15)
     pdf.set_font("Helvetica", "I", 8)
     pdf.set_text_color(150)
-    pdf.cell(0, 8, "Smart Data Analysis Pipeline - AI-Powered Report", align="C")
+    pdf.cell(0, 8, "InsightFlow AI Pipeline - AI-Powered Report", align="C")
 
     return bytes(pdf.output())

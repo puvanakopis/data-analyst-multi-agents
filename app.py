@@ -90,7 +90,7 @@ with st.sidebar:
 
 
 # Main content 
-st.title("📊 Smart Data Analysis Dashboard")
+st.title("📊 InsightFlow AI")
 
 if not uploaded_file:
     st.info("👆 Upload a CSV file in the sidebar to get started.")
