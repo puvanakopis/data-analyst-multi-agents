@@ -1,11 +1,11 @@
-# 🤖 Smart Data Analysis Pipeline - Multi-Agent AI System
+# 🤖 InsightFlow AI - Multi-Agent AI System
 
 An end-to-end **AI-powered data analysis platform** that automatically cleans data, performs statistical analysis, generates visualizations, extracts insights using LLMs (Groq), and exports a professional PDF report — all through a **multi-agent architecture**.
 
 
 ## 🌍 Project Overview
 
-The **Smart Data Analysis Pipeline** is a modular multi-agent system built with Python and Streamlit that transforms raw CSV data into meaningful business insights.
+The **InsightFlow AI** is a modular multi-agent system built with Python and Streamlit that transforms raw CSV data into meaningful business insights.
 
 Instead of a single monolithic script, the system uses specialized AI agents:
 
